@@ -1,0 +1,25 @@
+shape triangle
+    lines red 
+    fill yellow
+    line E 400
+    line N 300
+    line 126.9° 500
+end
+shape square
+    lines blue
+    fill #aaffaa
+    line S 100
+    line W 100
+    line N 100
+    line E 100
+end
+shape black_and_white
+    line E 150
+    line NW 71
+    line W 50
+    line SW 71
+end
+draw triangle 
+draw square at -10, -10
+draw black_and_white at 225, 150
+
